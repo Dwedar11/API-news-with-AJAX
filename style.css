@@ -1,0 +1,36 @@
+body {
+    background-color:white;
+}
+
+nav li {
+    cursor: pointer;
+
+}
+
+#textline  {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+/* #ptextline{
+display: block;
+text-overflow: ellipsis;
+word-wrap: break-word;
+overflow: hidden;
+max-height: 3.6em;
+line-height: 1.8em;
+} */
+#ptextline{
+display: -webkit-box;
+max-width: 300px;
+-webkit-line-clamp: 3;
+-webkit-box-orient: vertical;
+overflow: hidden;
+
+}
+.imgs{
+    width: 100%;
+    height: 10rem;
+}
